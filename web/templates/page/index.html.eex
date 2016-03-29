@@ -1,0 +1,3 @@
+<%= form_for @conn, page_path(@conn, :create), [as: :form], fn f -> %>
+  <%= submit "Click me" %>
+<% end %>

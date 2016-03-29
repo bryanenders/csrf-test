@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSRF Test</title>
+  </head>
+  <body>
+    <%= get_flash(@conn, :info) %>
+    <%= render @view_module, @view_template, assigns %>
+  </body>
+</html>
